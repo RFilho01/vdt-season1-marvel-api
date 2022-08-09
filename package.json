@@ -1,0 +1,30 @@
+{
+  "name": "vdt-season1-marvel-api",
+  "version": "1.0.0",
+  "description": "Projeto de automação da API da Marvel durante a primeira temporada do Viver de Teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RFilho01/vdt-season1-marvel-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cypress",
+    "javascript",
+    "marvel",
+    "api"
+  ],
+  "author": "Roberto Filho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RFilho01/vdt-season1-marvel-api/issues"
+  },
+  "homepage": "https://github.com/RFilho01/vdt-season1-marvel-api#readme",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^2.1.3",
+    "cypress": "^10.4.0"
+  }
+}
